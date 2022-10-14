@@ -7,7 +7,7 @@
 - How to use flex property to align items.
 ## Time taken to complete the project ⏲️
 
-8hrs
+4hrs
 
 ## Screenshot &nbsp; ![badge](https://img.shields.io/badge/Website-Screenshot-orange)
 ![project8](./images/screenshot.png)
