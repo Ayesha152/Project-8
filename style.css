@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/backcover.svg);
+    background-repeat: no-repeat;
+    background-position: bottom 0px right -160px;
+}
+nav{ 
+   
+    margin:0 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:13vh;
+
+}
+.mbtn{
+    margin: auto 0;
+    display: none;
+}
+nav img{
+    height:30px;
+}
+.nav-items{
+    display: flex;
+}
+.signin-btn{
+    font-size: 10px;
+    height: 20px;
+    background: linear-gradient(60deg, rgb(179, 71, 229)1.6%, rgb(250, 156, 245) 98.2%);
+    width: 70px;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-weight: 400;
+    color: #fff;
+    border: none;
+    margin: auto 0;
+}
+.nav-item{
+    margin:auto 0;
+    margin-right: 30px;
+    font-family: Roboto;
+}
+nav img, .signin-btn{
+    margin:auto 0;
+}
+.intro-section{
+    display:flex;
+    flex-direction: row;
+    height: 87vh;
+    margin-left: 7%;
+    margin-right: 4%;
+}
+.left-section{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    justify-content: flex-start;
+}
+.left-section h1{
+    font-family: 'Roboto';
+    font-size: 50px;
+}
+.left-section h4{
+    margin: 40px 0;
+    width: 60%;
+    line-height: 1.5;
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 11px;
+}
+.learn-more-btn{
+    background: linear-gradient(71deg, rgb(168 106 240)1.6%, rgb(250, 156, 245) 98.2%);
+    font-family: 'Roboto';
+    font-size: 15px;
+    height: 40px;
+    border: none;
+    color: #fff;
+    border-radius: 20px;
+    font-weight: 700;
+    width: 160px;
+}
+.imgs-div{
+
+    position: relative;
+}
+#triangle{
+    height: 80px;
+    position: absolute;
+    bottom: 80px;
+    left: -24px;
+}
+#dotimg{
+    position: absolute;
+    bottom: 140px;
+    left: 12px;
+}
+#fullimg{
+    height: 100%;
+    width: 100%;
+}
+@media screen and (max-width:998px) {
+.left-section,.imgs-div{
+    flex: 1;
+}  
+.left-section h4 {
+    margin: 15px 0;
+}
+
+.left-section{
+    margin-top: 0;
+    justify-content: center;
+}
+}
+@media screen and (max-width:768px) {
+.imgs-div{
+    display: flex;
+    justify-content: center;
+    flex: none;
+}
+.left-section{
+    align-items: center;
+    text-align: center;
+    flex: none;
+}
+.intro-section{
+    flex-direction: column-reverse;
+    justify-content: right;
+    margin: 0 4%;
+}
+#fullimg{
+    width: 75%;
+}
+#triangle{
+    bottom: 0;
+}
+#dotimg{
+    bottom: 45px;
+}
+.left-section h1 {
+    font-family: 'Roboto';
+    font-size: 40px;
+}
+.mbtn{
+    display: block;
+}
+.nav-items,.signin-btn{
+    display: none;
+}
+}
+@media screen and (max-width:640px) {
+.intro-section{
+    justify-content: center;
+}
+}
